@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My HubSpot App test Automation Regression Suite">
+  <test thread-count="5" name="HubSpot Functional Test">
+    <classes>
+          <class name="TestNGSessions.loginPageTest"/>
+   			<class name="TestNGSessions.HomePageTest"/>
+    </classes>
+  </test>
+</suite>

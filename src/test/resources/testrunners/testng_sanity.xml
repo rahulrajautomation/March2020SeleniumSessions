@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My HubSpot App test Automation Regression Suite" verbose="5">
+
+<parameter name="url" value="https://app.hubspot.com/login" />
+
+<parameter name="browser" value="chrome"/>
+  <test name="HubSpot Functional Test">
+  
+  <parameter name="username" value="navinanimation30@gmail.com" />
+  <parameter name="password" value="Test@1234"/>
+    <classes>
+          <class name="TestNGSessions.loginPageTest"/>
+    </classes>
+  </test>
+</suite>
